@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>₹1,50,000 Won By Indian Player!</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #121212;
+      color: #F0D264;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: #F0D264;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #aaa;
+      margin-bottom: 40px;
+    }
+
+    .timer {
+      font-size: 1.5rem;
+      margin-bottom: 50px;
+      font-weight: 700;
+    }
+
+    a.play-button {
+      background: linear-gradient(135deg, #f0d264, #e1b939);
+      color: #121212;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.6rem;
+      padding: 18px 60px;
+      border-radius: 40px;
+      box-shadow: 0 0 20px #f0d264;
+      transition: all 0.3s ease;
+    }
+
+    a.play-button:hover {
+      box-shadow: 0 0 40px #f0d264;
+      transform: scale(1.03);
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      a.play-button {
+        font-size: 1.3rem;
+        padding: 16px 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🇮🇳 Indian Player Won ₹1,50,000 Instantly!</h1>
+  <p>He just clicked the button. Will you try your luck?</p>
+
+  <div class="timer" id="timer">30 seconds</div>
+
+  <a href="https://1wilib.life/v3/3316/motive-video-promo?p=j6re" class="play-button" target="_blank">
+    Play Now & Win Real Money
+  </a>
+
+  <script>
+    let time = 30;
+    const timer = document.getElementById('timer');
+
+    function countdown() {
+      if (time >= 0) {
+        timer.textContent = time + ' seconds';
+        time--;
+        setTimeout(countdown, 1000);
+      }
+    }
+
+    countdown();
+  </script>
+</body>
+</html>
