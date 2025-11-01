@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access The System - 1win Predictions</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        /* 2. Применяем шрифты и обновляем стили */
+        body {
+            /* Используем новый шрифт 'Lato' */
+            font-family: 'Lato', 'Arial', sans-serif;
+            font-weight: 400; /* Стандартная толщина для текста */
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a; /* Темный фон */
+            color: #e0e0e0; /* Светлый, но не слепящий белый текст */
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Заголовки */
+        h1 {
+            font-size: 32px;
+            font-weight: 900; /* Самый жирный шрифт для H1 */
+            color: #ff4d4d; /* Ярко-красный */
+            text-align: center;
+            margin-bottom: 15px;
+            line-height: 1.2;
+            text-transform: uppercase;
+            letter-spacing: -1px; /* Чуть сближаем буквы */
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: 700; /* Жирный шрифт */
+            text-align: center;
+            margin-bottom: 30px;
+            color: #f0f0f0;
+        }
+        h3 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #4da6ff; /* Ярко-синий */
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Текст */
+        p {
+            font-size: 17px; /* Чуть меньше для лучшей читаемости */
+            margin-bottom: 18px;
+        }
+        p b {
+            font-weight: 700; /* Bold будет 700 */
+            color: #ffffff;
+        }
+
+        /* Отзывы */
+        .testimonial {
+            background-color: #2c2c2c;
+            border-left: 5px solid #4da6ff;
+            padding: 18px 22px;
+            margin-bottom: 18px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+        .testimonial p {
+            margin: 0;
+            font-style: italic;
+            font-size: 16px;
+            color: #cccccc;
+        }
+        .testimonial .author {
+            font-weight: 700;
+            font-style: normal;
+            color: #ffffff;
+            margin-bottom: 8px;
+            display: block;
+            font-size: 17px;
+        }
+
+        /* Блок с призывом (CTA) */
+        .cta-block {
+            border: 3px solid #ff4d4d;
+            background-color: #2b1f1f;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .cta-block h2 {
+            color: #ff4d4d;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
+        .spots-left {
+            font-size: 22px;
+            font-weight: 900; /* Жирный */
+            color: #ff4d4d;
+            margin-top: 15px;
+        }
+
+        /* Кнопка CTA */
+        .cta-button {
+            display: block;
+            width: 100%;
+            background-color: #33cc33; /* Ярко-зеленый */
+            color: #ffffff;
+            padding: 20px; /* Немного уменьшил для баланса */
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 900; /* Самый жирный шрифт */
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+            animation: pulse 1.8s infinite;
+            text-transform: uppercase; /* Крупные буквы на кнопке */
+        }
+        .cta-button:hover {
+            background-color: #2eb82e;
+            animation: none;
+        }
+        .cta-button:active {
+            transform: scale(0.98);
+        }
+        
+        /* Анимация пульсации */
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(51, 204, 51, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 20px rgba(51, 204, 51, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(51, 204, 51, 0);
+            }
+        }
+
+        /* Отказ от ответственности */
+        .disclaimer {
+            font-size: 13px;
+            color: #888;
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        /* Адаптация для мобильных */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 19px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .testimonial .author {
+                font-size: 16px;
+            }
+            .testimonial p {
+                font-size: 15px;
+            }
+            .cta-block h2 {
+                font-size: 22px;
+            }
+            .spots-left {
+                font-size: 18px;
+            }
+            .cta-button {
+                font-size: 20px;
+                padding: 18px;
+            }
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <h1>🛑 STOP LOSING MONEY ON 1WIN!</h1>
+        
+        <h2>Discover how our AI predicts games and helps our subscribers earn ₹5,000+ daily.</h2>
+
+        <p>Namaste!</p>
+        <p>You're probably here because you're <b>tired of losing money</b> and trying to guess when that 'big win' will hit on 1win.</p>
+        <p>You see others celebrating their winnings, but you're still in the red. <b>Does this sound familiar?</b></p>
+        <p>My name is Rohan [Or your name/team name], and I've been there too. I spent months and lakhs of rupees trying to find that 'perfect' strategy.</p>
+        <p><b>And I found it.</b></p>
+        <p>Our team of developers created a <b>unique Telegram bot</b> powered by AI.</p>
+
+        <h3>🤖 How does our bot work?</h3>
+        <p>It doesn't "predict" with 100% certainty (that's impossible!), but it does something even better:</p>
+        <p><b>1. Analyzes Big Data:</b> The bot monitors thousands of 1win game sessions in real-time, 24/7.</p>
+        <p><b>2. Identifies "Anomalies":</b> It finds patterns and 'overheated' games where the probability of winning is <i>mathematically higher</i> at that exact moment.</p>
+        <p><b>3. Sends a Signal:</b> As soon as the system identifies a 'hot' entry point, the bot instantly sends a signal to our private Telegram channel.</p>
+        <p>All you have to do is join and replicate the bet. It's that simple.</p>
+
+        <h3>📈 Our subscribers are already winning big:</h3>
+
+        <div class="testimonial">
+            <span class="author">User "Amit K."</span>
+            <p>"Guys, this is insane! I turned ₹1,000 into ₹17,000 in just 3 days! The bot actually works, huge thanks! 🔥"</p>
+        </div>
+
+        <div class="testimonial">
+            <span class="author">User "Priya S."</span>
+            <p>"I'm shocked... thought it was another scam. But no! Here's my withdrawal for today. [Screenshot of ₹3,500 withdrawal]"</p>
+        </div>
+
+        <div class="testimonial">
+            <span class="author">User "Rahul D."</span>
+            <p>"Best team I've ever seen. Yesterday I caught a signal with 8.5x odds! Eight point five, dude! Simply amazing."</p>
+        </div>
+
+        <div class="cta-block">
+            <h2>⚠️ LIMITED ACCESS!</h2>
+            <p>We cannot let everyone in. The more people who know about these signals, the faster 1win will 'patch' their algorithms.</p>
+            <p>That's why we're offering <b>FREE</b> access to only the <b>first 50 people</b> who click the link today.</p>
+            <p class="spots-left">Spots remaining: 17</p>
+        </div>
+
+        <a href="https://t.me/your_bot_name" class="cta-button">
+            GET FREE ACCESS TO THE BOT
+        </a>
+        <p class="disclaimer">
+            Disclaimer: Gambling involves a high risk of losing money. Do not gamble with money you cannot afford to lose. All materials are for informational purposes only. 18+
+        </p>
+
+    </div>
+
+</body>
+</html>
